@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 # TinyIB converted to a single file by ~malamut2014
 #
 # https://github.com/tslocum/TinyIB
@@ -793,6 +793,21 @@ form {
 		color:#999999;
 		font-family:sans-serif;
 		font-size:10pt;
+	}
+	.replymode {
+		  background: #222;
+		text-align: center;
+		padding: 2px;
+		color: #CCCCC;
+		clear: both;
+		font-weight: bold;
+		margin-bottom: .5em;
+		border: solid 1px #CCCCCC;
+		-moz-border-radius: 5px;
+		-webkit-border-bottom-left-radius: 5px;
+		-webkit-border-bottom-right-radius: 5px;
+		-webkit-border-top-left-radius: 5px;
+		-webkit-border-top-right-radius: 5px;
 	}
 	.logo {
         clear:both;
