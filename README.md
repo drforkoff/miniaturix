@@ -1,4 +1,4 @@
-MalaIB 1.1 based o TinyIB
+MalaIB 1.1 based on TinyIB
 =================
 
 Преимущества
