@@ -1270,7 +1270,7 @@ EOF;
 						<td>
 							<input type="text" name="name" size="28" maxlength="75" accesskey="n">
 						</td>
-					</tr>
+					</tr-->
 					<tr>
 						<td class="postblock">
 							E-mail
@@ -1278,7 +1278,7 @@ EOF;
 						<td>
 							<input type="text" name="email" size="28" maxlength="75" accesskey="e">
 						</td>
-					</tr-->
+					</tr>
 					<tr>
 						<td class="postblock">
 							Subject
@@ -2910,7 +2910,7 @@ if (isset($_POST['message']) || isset($_POST['file'])) {
 //	list($post['name'], $post['tripcode']) = nameAndTripcode($_POST['name']);
 
 	$post['name'] = cleanString(substr($post['name'], 0, 75));
-//	$post['email'] = cleanString(str_replace('"', '&quot;', substr($_POST['email'], 0, 75)));
+	$post['email'] = cleanString(str_replace('"', '&quot;', substr($_POST['email'], 0, 75)));
 	$post['subject'] = cleanString(substr($_POST['subject'], 0, 75));
 	if ($rawpost) {
 		$rawposttext = ($isadmin) ? ' <span style="color: red;">## Admin</span>' : ' <span style="color: purple;">## Mod</span>';
